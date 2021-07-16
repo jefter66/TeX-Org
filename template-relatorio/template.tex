@@ -1,0 +1,102 @@
+\documentclass[a4paper, 12pt]{article}
+% 12pt -> fonte
+
+% configuração da margem
+\usepackage[margin=0.7in]{geometry}
+
+\usepackage{subcaption}
+
+% usei para configurar a aparência dos
+% capitulos
+\usepackage{titling}
+\usepackage{titlesec}
+
+\usepackage{amsmath, amsfonts, amssymb}
+
+% permite dividir o texto em colunas
+\usepackage{multicol}
+
+% acho que coloquei isso para poder usar o simbolo de º
+\usepackage{gensymb}
+% esse pacote serve para escrever unidades do SI
+% nem sei se é mt útil
+\usepackage{siunitx}
+
+\usepackage{colortbl,hhline}
+
+% deixa em português as coisas que o latex
+% coloca por automatico
+% tipo os nomes+nº das tabelas, se não colocar essa opção
+% fica "Table nº ", com essa opção vai ficar "Tabela.."
+\usepackage[brazil]{babel}
+
+% inserir imagens
+\usepackage{grap
+
+% uso para fazer os gráficos
+\usepackage{gnuplottex}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{siunitx}
+\usepackage{float}
+
+% ao invés de ter o "Figura nº" só coloca a abreviação Fig
+% nas legendas de imagens.
+\usepackage[figurename=Fig.]{caption}
+
+% alguma relação com a tabela, não lembro
+\usepackage{multirow}
+% para mudar cor de elementos em tabelas
+\usepackage[table,xcdraw]{xcolor}
+
+% esse pacote faz o paragrafo indentar automaticamente
+\usepackage{indentfirst}
+
+% formatação dos títulos das sections
+\titleformat{\section}{\Large\bfseries}{}{2.5em}{}
+\titlespacing{\section}{0em}{1.5em}{1.5em}
+\titleformat{\subsection}{\bfseries}{}{0em}{}
+\titleformat{\subsubsection}{\bfseries}{$\rightarrow$}{1em}{}
+\titlespacing{\subsubsection}{0em}{0em}{0em}
+
+
+% caminho da pasta com as imagens
+\graphicspath{{./imagens/}}
+
+\begin{titlepage}
+\title{
+   \begin{center}
+        \Huge{
+        \textbf{Instituto de Física de São Carlos \\
+        Laboratório de Física I}
+        \vspace{1em}
+        \begin{figure}[h]
+  \begin{center}
+      \includegraphics[width=6cm, height=10cm]{ifsc-logo.jpg}
+   \end{center}
+\end{figure}
+       \vspace{0.5em} \\
+        \Large{Prática nº}
+        \vspace{0.5em} \\
+       \large{ Título da prática}
+        }
+        \vspace*{\fill}
+        \large{
+        Jefter Santiago Mares nº \\
+        }
+        \vspace*{\fill}
+      \\São Carlos \\  2021
+\newpage
+\end{center}}
+\end{titlepage}
+\date{}
+\begin{document}
+\maketitle
+\section{Resumo}
+\section{Objetivos}
+\section{Introdução}
+\section{Método experimental}
+\section{Resultados e discussão}
+\section{Conclusão}
+\section{Referências}
+\end{document}
