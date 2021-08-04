@@ -1,4 +1,4 @@
-#+TITLE: Org docs 
+#+TITLE: Org docs
 #+STARTUP: showeverything inlineimages
 #+OPTIONS:  toc:nil num:nil
 #+AUTHOR: Jefter Santiago Mares
@@ -6,8 +6,7 @@
 * Loading my template of latex export
 #+begin_src org-mode
 #+SETUPFILE: file.org
-#+end_src 
-
+#+end_src
 
 * Formating tables with org-mode
   |----------+----------+----------|
@@ -15,7 +14,7 @@
   |----------+----------+----------|
   |     1111 |     1111 |     1111 |
   |----------+----------+----------|
-  
+
 * this is a list
  - ONE THING
  - OTHER THING
@@ -36,9 +35,9 @@ ax^2 + bx + c = f(x) ...
   }
 #+end_src
 
-* Exemplo de imagem 
-  #+ATTR_LATEX: :width 8cm 
+* Exemplo de imagem
+  #+ATTR_LATEX: :width 8cm
   #+CAPTION: This is the caption for the next table (or link)
-  [[~/Notes/cube.png]]
+  [[~/Notes/.images/cube.png]]
 
-  
+
