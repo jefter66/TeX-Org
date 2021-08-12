@@ -14,8 +14,9 @@
 #+LATEX_HEADER: \usepackage{siunitx}
 #+LATEX_HEADER: \usepackage{tikz}
 #+LATEX_HEADER: \usepackage{color}
-#+LATEX: \titleformat{\section}{\Large\bfseries}{}{9.5em}{\underline}
-#+LATEX: \titlespacing{\section}{0em}{1.5em}{1.5em}
-#+LATEX: \titleformat{\subsection}{\bfseries}{\underline}{0em}{}
-#+LATEX: \titleformat{\subsubsection}{\bfseries}{$\rightarrow$}{1em}{}
-#+LATEX: \titlespacing{\subsubsection}{0em}{0em}{0em}
+#+LATEX_HEADER: \usepackage{epigraph}
+#+LATEX_HEADER: \titleformat{\section}{\Huge\bfseries\centering}{}{}{\underline}
+#+LATEX_HEADER: \titlespacing{\section}{0em}{1.5em}{1.5em}
+#+LATEX_HEADER: \titleformat{\subsection}{\Large\bfseries}{}{0em}{\underline}
+#+LATEX_HEADER: \titleformat{\subsubsection}{\large\bfseries}{$\rightarrow$}{1em}{\underline}
+#+LATEX_HEADER: \titlespacing{\subsubsection}{0em}{0em}{0em}
