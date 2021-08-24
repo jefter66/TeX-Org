@@ -1,0 +1,68 @@
+#+TITLE: Org and Latex examples
+#+SETUPFILE: ~/workspace/latex-org/org_header.org
+* loading latex template
+#+begin_src org-mode
+#+end_src
+* formating tables with org-mode
+  |----------+----------+----------|
+  | Column 1 | Column 2 | Column 3 |
+  |----------+----------+----------|
+  |     1111 |     1111 |     1111 |
+  |----------+----------+----------|
+* image =with latex export=
+  #+ATTR_LATEX: :width 8cm
+  #+CAPTION: This is the caption for the next table (or link)
+  [[~/workspace/notes/.images/cube.png]]
+* this is a list
+ - ONE THING
+ - OTHER THING
+ - YET ANOTHER THING
+* source code
+#+begin_src c++
+  #include <iostream>
+    int main () {
+   std::cout<< "Hello world" << std::endl;
+   return 0 ;
+  }
+#+end_src
+** TODO how to run + results ?
+* tikz
+#+BEGIN_EXPORT LATEX
+\begin{tikzpicture}
+\draw (-2,0) -- (2,0);
+\filldraw [gray] (0,0) circle (2pt);
+\draw (-2,-2) .. controls (0,0) .. (2,-2);
+\draw (-2,2) .. controls (-1,0) and (1,0) .. (2,2);
+\end{tikzpicture}
+#+END_EXPORT
+* latex preview
+** TODO store imgs in ~/org/ 
+** random random  
+Um texto  $$f'(h) = \lim_{x \to h}{\frac{f(x) - f(h)}{x - h}}$$ e outro texto na frente 
+$$T_x = \sum_{n=0}^{k}{\frac{f^{(n)}(a)}{n!}(x - a)^n$$
+$$ L = \int_{a}^{b}{f(x)dx} $$ 
+\begin{bmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{bmatrix}
+$$  \vec{F_x} = \vec{F} \cdot cos(\vec{x},\vec{F}) $$
+
+[[~/pictures/wallpapers/milky-way.jpg]]
+ 
+* figure
+ - Exemplo de como colocar figura
+   e adicionar à lista de figuras
+#+begin_src latex
+\listoffigures
+#+end_src
+- Na lista de figuras vai aparecer o nome colocado
+    na função \caption
+#+begin_src latex
+  \begin{figure}[!ht]
+    \includegraphics[width=8em,height=8em]{image.png}
+    \centering
+    \caption{Image name }
+    \label{fig:image}
+  \end{figure}
+#+end_src
+
