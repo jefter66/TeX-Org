@@ -4,6 +4,9 @@
 % configuração da margem
 \usepackage[margin=0.7in]{geometry}
 
+% usar pra escrever texto aleatorio
+\usepackage{blindtext}
+
 \usepackage{subcaption}
 
 % usei para configurar a aparência dos
@@ -30,6 +33,7 @@
 % fica "Table nº ", com essa opção vai ficar "Tabela.."
 \usepackage[brazil]{babel}
 
+
 % inserir imagens
 \usepackage{graphicx}
 
@@ -52,13 +56,19 @@
 % esse pacote faz o paragrafo indentar automaticamente
 \usepackage{indentfirst}
 
+% pacote usado para escrever as equações químicas
+\usepackage{chemformula}
+% desenhar figuras de estruturas químicas
+\usepackage{chemfig}
+
+
 % formatação dos títulos das sections
-\titleformat{\section}{\Large\bfseries}{}{2.5em}{}
+%\titleformat{\section}{\Large\bfseries}{}{2.5em}{}
+\titleformat{\section}{\Large\bfseries}{}{}{\underline}
 \titlespacing{\section}{0em}{1.5em}{1.5em}
 \titleformat{\subsection}{\bfseries}{}{0em}{}
-\titleformat{\subsubsection}{\bfseries}{$\rightarrow$}{1em}{}
+\titleformat{\subsubsection}{\large\bfseries}{}{1em}{\underline}
 \titlespacing{\subsubsection}{0em}{0em}{0em}
-
 
 % caminho da pasta com as imagens
 \graphicspath{{./imagens/}}
@@ -67,39 +77,70 @@
 \title{
    \begin{center}
         \Huge{
-        \textbf{Instituto de Física de São Carlos \\
-        Laboratório de Física I}
+          \textbf{Universidade de São Paulo}
+          \\
+          Instituto de Física de São Carlos
         \vspace{1em}
         \begin{figure}[h]
-  \begin{center}
-      \includegraphics[width=6cm, height=10cm]{ifsc-logo.jpg}
-   \end{center}
 \end{figure}
-       \vspace{0.5em} \\
-        \Large{Prática nº}
+       \vspace{0.2em} \\
+\begin{flushright}
+\large{Laboratório de Física II
+        \\
+       Prof. Iouri Poussep}
+\end{flushright}
+        \vspace{5em}
+        \huge\textbf{Prática x}
         \vspace{0.5em} \\
-       \large{ Título da prática}
+        \Large{
+          Título da Prática }
         }
         \vspace*{\fill}
+  \begin{flushright}
         \large{
-        \\ Gabriel Lima Alves  n° 12558547 \\
+        Beatriz xxxx xxxx xxxx nº xxxxx \\
         Jefter Santiago Mares n° 12559016 \\
-        Vitória Bitencourte Galliac n° 12624818 \\
+        Pedro Santos Silva  n° xxxxxxxx \\
         }
+   \end{flushright}
+ \vspace*{0.5em}
+   \begin{flushleft}
+ \large{     Data do experimento:
+     \\
+     Data de entrega:
+ }
+    \end{flushleft}
         \vspace*{\fill}
-      \\São Carlos \\  2021
+     \large{\\São Carlos \\  2021}
 \newpage
 \end{center}}
 \end{titlepage}
 \date{}
 \begin{document}
 \maketitle
+\tableofcontents
+\listoffigures
+\listoftables
+
+\newpage
+
 \section{Resumo}
-\section{Objetivos}
+\section{Objetivo}
 \section{Introdução}
-\section{Método experimental}
-\section{Resultados e discussão}
+\section{Método Experimental}
+\setcounter{tocdepth}{2}
+\subsection{Experimento 1 - Nome }
+\subsection{Experimento 2 - Nome }
+\subsection{Experimento 3 - Nome }
+\section{Resultados e Discussão}
+\setcounter{tocdepth}{2}
+\subsection{Experimento 1 - Nome }
+\subsection{Experimento 2 - Nome }
+\subsection{Experimento 3 - Nome }
 \section{Conclusão}
 \section{Referências}
-SCHNEIDER, José F. \textbf{Laboratório de Física 1}: Livro de práticas. São Carlos: 2016.
 \end{document}
+
+
+
+
