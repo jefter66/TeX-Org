@@ -6,17 +6,21 @@
 #+LATEX_HEADER: \usepackage{amsmath, amsfonts, amssymb}
 #+LATEX_HEADER: \usepackage{multicol}
 #+LATEX_HEADER: \usepackage{gensymb}
+#+LATEX_HEADER: \usepackage{cancel}
 #+LATEX_HEADER: \usepackage{siunitx}
 #+LATEX_HEADER: \usepackage{colortbl,hhline}
 #+LATEX_HEADER: \usepackage[brazil]{babel}
 #+LATEX_HEADER: \usepackage{indentfirst}
 #+LATEX_HEADER: \usepackage{graphicx}
 #+LATEX_HEADER: \usepackage{siunitx}
+#+LATEX_HEADER:\usepackage{chemfig}
 #+LATEX_HEADER: \usepackage{tikz}
+#+LATEX_HEADER:\usetikzlibrary{arrows}
+#+LATEX_HEADER:\usepackage[controls]{animate}
 #+LATEX_HEADER: \usepackage{color}
 #+LATEX_HEADER: \usepackage{epigraph}
-#+LATEX_HEADER: \titleformat{\section}{\Huge\bfseries\centering}{}{}{\underline}
+#+LATEX_HEADER: \titleformat{\section}{\Large\bfseries}{}{}{\underline}
 #+LATEX_HEADER: \titlespacing{\section}{0em}{1.5em}{1.5em}
-#+LATEX_HEADER: \titleformat{\subsection}{\Large\bfseries}{}{0em}{\underline}
+#+LATEX_HEADER: \titleformat{\subsection}{\large\bfseries}{}{0em}{\underline}
 #+LATEX_HEADER: \titleformat{\subsubsection}{\large\bfseries}{$\rightarrow$}{1em}{\underline}
 #+LATEX_HEADER: \titlespacing{\subsubsection}{0em}{0em}{0em}
