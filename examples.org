@@ -53,7 +53,7 @@ $$  \vec{F_x} = \vec{F} \cdot cos(\vec{x},\vec{F}) $$
  - Exemplo de como colocar figura
    e adicionar à lista de figuras
 #+begin_src latex
-\listoffigures
+  \listoffigures
 #+end_src
 - Na lista de figuras vai aparecer o nome colocado
     na função \caption

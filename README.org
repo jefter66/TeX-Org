@@ -1,0 +1,16 @@
+#+TITLE: Templates for LaTeX and [[https://en.wikipedia.org/wiki/Org-mode][Org-mode]]
+
+* LaTeX
+** Presentation (Beamer)
+  - [[beamer.tex][Basic page]]
+** Header
+  - [[tex_header.tex][The default style and packages i use]]
+** Templates
+  - [[report-template][templates for reports]]
+
+* Org-mode
+** Header
+  - [[org_header.org][default header]]
+
+** Examples of usage of org stuff and latex
+  - [[examples.org][examples]]
