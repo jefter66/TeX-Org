@@ -25,7 +25,6 @@
    return 0 ;
   }
 #+end_src
-** TODO how to run + results ?
 * tikz
 #+BEGIN_EXPORT LATEX
 \begin{tikzpicture}
