@@ -1,43 +1,55 @@
 #+BEGIN_COMMENT
   Latex packages
 #+END_COMMENT
+#+LATEX_HEADER: \usepackage{blindtext}
+#+LATEX_HEADER: \usepackage{subcaption}
+#+LATEX_HEADER: \usepackage{titling}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \usepackage{ amsmath, amsfonts, amssymb}
+#+LATEX_HEADER: \usepackage{multicol}
+#+LATEX_HEADER: \usepackage{gensymb}
+#+LATEX_HEADER: \usepackage{cancel}
+#+LATEX_HEADER: \usepackage{siunitx}
+#+LATEX_HEADER: \usepackage{colortbl,hhline}
+#+LATEX_HEADER: \usepackage[brazil]{babel}
+#+LATEX_HEADER: \usepackage[numbers]{natbib}
+#+LATEX_HEADER: \usepackage{indentfirst}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{siunitx}
+#+LATEX_HEADER: \usepackage{chemfig}
+#+LATEX_HEADER: \usepackage[backend=bibtex,bibencoding=ascii,style=chem-angew,citestyle=numeric-comp,sorting=none]{biblatex}
+#+LATEX_HEADER: \usepackage{tikz}
+#+LATEX_HEADER: \usetikzlibrary{arrows}
+#+LATEX_HEADER: \usepackage[controls]{animate}
+#+LATEX_HEADER: \usepackage{color}
+#+LATEX_HEADER: \usepackage{epigraph}
+#+LATEX_HEADER: \usepackage{empheq}
+#+latex_header: \usepackage{svg}
 
-#+LATEX_HEADER:\usepackage{blindtext}
-#+LATEX_HEADER:\usepackage{subcaption}
-#+LATEX_HEADER:\usepackage{titling}
-#+LATEX_HEADER:\usepackage{titlesec}
-#+LATEX_HEADER:\usepackage{amsmath, amsfonts, amssymb}
-#+LATEX_HEADER:\usepackage{multicol}
-#+LATEX_HEADER:\usepackage{gensymb}
-#+LATEX_HEADER:\usepackage{cancel}
-#+LATEX_HEADER:\usepackage{siunitx}
-#+LATEX_HEADER:\usepackage{colortbl,hhline}
-#+LATEX_HEADER:\usepackage[brazil]{babel}
-#+LATEX_HEADER:\usepackage{indentfirst}
-#+LATEX_HEADER:\usepackage{graphicx}
-#+LATEX_HEADER:\usepackage{siunitx}
-#+LATEX_HEADER:\usepackage{chemfig}
-#+LATEX_HEADER:\usepackage[ backend=biber, style=alphabetic, sorting=ynt ]{biblatex}
-#+LATEX_HEADER:\usepackage{tikz}
-#+LATEX_HEADER:\usetikzlibrary{arrows}
-#+LATEX_HEADER:\usepackage[controls]{animate}
-#+LATEX_HEADER:\usepackage{color}
-#+LATEX_HEADER:\usepackage{epigraph}
-#+LATEX_HEADER:\usepackage{empheq}
-#+LATEX_HEADER:\usepackage[theorems,skins]{tcolorbox}
-#+LATEX_HEADER:\usepackage[svgnames]{xcolor}
-#+LATEX_HEADER:\usepackage[explicit]{titlesec}
+
+#+LATEX_HEADER: \usepackage[theorems,skins]{tcolorbox}
+#+LATEX_HEADER: \usepackage[svgnames]{xcolor}
+#+LATEX_HEADER: \usepackage[explicit]{titlesec}
+#+LATEX_HEADER: \usepackage[backend=bibtex,style=verbose-trad2]{biblatex}
+#+LATEX_HEADER: \usepackage[svgnames]{xcolor}
+#+LATEX_HEADER: \usepackage{framed}
+
+#+latex_header: \usepackage{abstract}
+#+latex_header: \renewcommand{\abstractname}{}    % clear the title
+#+latex_header: \renewcommand{\absnamepos}{empty} % originally center
+
+
+#+LATEX_HEADER: \definecolor{shadecolor}{gray}{0.9}
+
+
+#+latex_header: \usepackage{tipa}  
+#+latex_header: \usepackage{upgreek}
+
+
 
 
 #+BEGIN_COMMENT
 Load all latex at startup
 #+END_COMMENT
+
 #+STARTUP: latexpreview
-
-
-
-
-
-
-
-

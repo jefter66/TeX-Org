@@ -1,5 +1,5 @@
 #+TITLE: Org and Latex examples
-#+SETUPFILE: ~/workspace/latex-org/org_header.org
+#+SETUPFILE: ~/Latex/latex-org/org_header.org
 * loading latex template
 #+begin_src org-mode
 #+end_src
@@ -17,6 +17,13 @@
  - ONE THING
  - OTHER THING
  - YET ANOTHER THING
+* minted code
+#+latex_header: \usepackage{minted}
+#+begin_src python -n
+  def test():
+     print("LKAJSFLAKFJLKJ")
+     # just an example
+#+end_src
 * source code
 #+begin_src c++
   #include <iostream>
@@ -25,6 +32,13 @@
    return 0 ;
   }
 #+end_src
+* teorema
+\begin{theorem}[Pythagorean theorem]
+\label{pythagorean}
+This is a theorem about right triangles and can be summarised in the next 
+equation 
+\[ x^2 + y^2 = z^2 \]
+\end{theorem}
 * tikz
 #+BEGIN_EXPORT LATEX
 \begin{tikzpicture}
