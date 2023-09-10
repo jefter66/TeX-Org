@@ -1,0 +1,31 @@
+\input{./configs/header.tex}
+
+\addbibresource{references.bib}
+
+
+
+\hypersetup{
+  pdfauthor={AUTOR},
+  pdftitle={Titulo do PDF},
+%  pdfkeywords={},
+  pdfsubject={ASSUNTO},
+  pdfcreator={AUTOR}, 
+  pdflang={Portuguese},
+  colorlinks=true,    % Color links instead of boxes
+  linkcolor=blue,     % Color of internal links
+  citecolor=green,    % Color of citation links
+  urlcolor=blue,      % Color of URLs
+}
+
+\input{./configs/title_page.tex}
+
+% remove paginas vazias do inicio do documento
+\let\cleardoublepage=\clearpage
+
+% remove data
+\date{}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "main.tex"
+%%% End:

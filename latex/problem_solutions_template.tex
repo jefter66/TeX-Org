@@ -1,0 +1,32 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{blindtext}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+
+\newenvironment{problem}[2][Exercício]
+    { \begin{mdframed}[backgroundcolor=gray!20] \textbf{#1 #2} \\}
+    { \end{mdframed}}
+
+\begin{document}
+% Define solution environment
+\newenvironment{solution}
+    {\textit{Solution:}}
+    {}
+\noindent
+\large\textbf{Jefter Santiago Mares} \hfill \textbf{Lista - \#}   \\
+ID: 12559016 \\
+\normalsize Curso: SMA0343 - Espaços Métricos \hfill 2023.2 \\
+Instructor: Profa Thais Jordão \hfill Data de entrega: \\
+\noindent\rule{7in}{2.8pt}
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "template_resolucoes.tex"
+%%% End:
