@@ -1,0 +1,2 @@
+-*- mode: org -*-
+#+latex_header: \input{packages.tex}

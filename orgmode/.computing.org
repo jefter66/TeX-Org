@@ -1,0 +1,15 @@
+#+language: pt
+#+latex_header: \usepackage[margin=0.8in]{geometry}
+#+latex_header: \usepackage{titling}
+#+latex_header: \titleformat{\section}{\Large\bfseries}{\thesection}{.5em}{}[\hrule]
+#+latex_header: \titlespacing{\section}{0em}{1.5em}{1.5em}
+#+latex_header: \titleformat{\subsection}{\large\bfseries}{\thesubsection}{.5em}{}
+#+latex_header: \titlespacing{\section}{0em}{1.5em}{1.5em}
+
+#+latex_header: \usepackage[dvipsnames]{xcolor}
+#+latex_header: \usepackage{minted}
+
+#+latex_header: \setminted[shell]{bgcolor=white}
+#+latex_header: \usemintedstyle[shell]{bw}
+\newpage
+

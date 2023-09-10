@@ -1,0 +1,14 @@
+#+setupfile: ~/Dropbox/Templates/latex-org/org_header.org
+#+latex_header: \usepackage[margin=0.7in]{geometry}
+
+#+latex_header: \titleformat{\section}{\normalfont\sffamily\huge\bfseries\color{blue}}{\thesection}{1em}{}
+#+latex_header: \titlespacing{\section}{0em}{.5em}{.5em}
+#+latex_header: \titleformat{\subsection}{\large\bfseries\normalfont\sffamily\Large\color{red}}{\thesubsection}{1.5em}{}
+#+latex_header: \titlespacing{\subsection}{0em}{.5em}{.5em}
+
+\newpage
+
+
+
+
+
